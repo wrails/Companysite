@@ -55,6 +55,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
-   gem 'pg', '~> 1.0' # was added ('< 1.0') instead of (~> 1.0) it is a recomendation to be able to load to heroku
+   gem 'pg', '~> 0.18' # was added ('< 1.0') instead of (~> 1.0) it is a recomendation to be able to load to heroku
    gem 'rails_12factor'
 end
